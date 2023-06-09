@@ -139,7 +139,7 @@ class _SupaSocialsAuthState extends State<SupaSocialsAuth> {
       final session = data.session;
       if (session != null && mounted) {
         widget.onSuccess.call(session);
-        context.showSnackBar('Successfully signed in !');
+//         context.showSnackBar('Successfully signed in !');
       }
     });
   }
